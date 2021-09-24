@@ -1,0 +1,151 @@
+*{
+    margin: 0 0 0 1px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial',sans-serif;
+}
+section{
+    position: relative;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+}
+section header ul {
+    margin-top: 5px;
+}
+section header ul li{
+    display: inline;
+}
+section header ul li .ii img{
+    width:4%;
+    border-radius: 80%;
+}
+section header ul li {
+    margin-right: 10px;
+}
+section header ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 20px;
+    top: 0;
+}
+
+section header ul li a:hover{
+    text-decoration: underline;
+}
+section header ul li button{
+    background-color: #4584ef;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color:#fff;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor:pointer
+}
+section .main{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section .main .searchBox{
+    position: relative;
+    width:100%;
+    margin-top: 20px;
+}
+section .main .searchBox .search{
+    width:100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border:1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    text-align: right;
+}
+section .main .searchBox .icons{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display:flex;
+    padding:12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+section .main .buttons{
+    margin-top:20px;
+}
+section .main .buttons button{
+    margin: 0 5px;
+    padding: 12px 20px;
+    color:#555;
+    font-size:14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border:1px solid transparent;
+    outline: none;
+}
+section .main .buttons button:hover{
+    border:1px solid #ccc;
+}
+section .main .lang{
+    display: flex;
+    margin-top:30px;
+    direction: rtl;
+}
+section .main .lang li{
+    list-style: none;
+    margin: 0 5px;
+    font-size: 15px;
+}
+section .main .lang li a{
+    text-decoration: none;
+}
+section .main .lang li a:hover{
+    text-decoration: underline;
+}
+section .footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    background-color: #f2f2f2;
+}
+section .footer .row{
+    padding: 15px 25px ;
+    text-align: right;
+    color: #5f6368;
+}
+section .footer .row.row2{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(0,0,0,0.05 );
+
+}
+section .footer .row.row2 ul{
+    display: flex;
+}
+section .footer .row.row2 ul li{
+    list-style-type: none;
+}
+section .footer .row.row2 ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #5f6368;
+    margin-right:25px;
+
+}
